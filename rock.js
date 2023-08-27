@@ -9,5 +9,5 @@ const formE1 = document.querySelector("form");
 formE1.addEventListener("submit", (event) => {
     event.preventDefault();
     const cityValue = cityInputE1.value;
-    console.log(cityValue);
+    getWeatherdata(cityValue)
  });
