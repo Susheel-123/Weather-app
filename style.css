@@ -18,12 +18,12 @@ body{
 form input[type="submit"]{
 
     background-color: #F0F8FF;
-    border-radius: 10px;
+    border-radius: 5px;
     border: none;
-    padding: 15px;
+    padding: 5px;
     cursor: pointer; 
     transition: background-color .3s ease; 
-    margin-left: 20px; 
+    
 }
 
 form input[type="text"]{
@@ -32,12 +32,13 @@ form input[type="text"]{
     outline: none;
     padding: 10px;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 15px;
 
 }
 form input[type="submit"]:hover{
 
 background-color: #808080;
+padding: 10px;
 }
 form{
     display: flex;
@@ -65,18 +66,14 @@ form{
 .details > div {
     padding: 20px;
     background-color: #A9A9A9;
-    margin: 10px;
+    margin: 1px;
     border-radius: 5px;
-    cursor: pointer;
-    border: none;
-    outline: none;
     transition: background-color .3s ease;
+    justify-content: center;
     flex: 1;
-    padding: 10px;
-    text-align: center;
     
 }
-.details > div:hover{
+.details  div:hover{
     background-color: #FF4500;
 }
 .icon img{
